@@ -64,7 +64,7 @@ ui <- dashboardPage(
                 fluidRow(
                   tags$body(
                   br(),"presented by - Roma and Ganesh",
-                  br(), "Github Link:",
+                  br(), "Github Link:https://github.com/ganesh2512/finalProject",
                   br(),"Rstudio Cloud Link: https://rstudio.cloud/project/704614",
                   br(),"Bookdown Link: https://bookdown.org/rdutta4/bookdown-grandslam/",
                   br(),"ShinyAppsIOLink: https://ganesh-viswanathan.shinyapps.io/finalProjectShiny/",
