@@ -1,6 +1,6 @@
-To Recreate PErform the following
+To Recreate Perform the following
 
-To Recreate the Final Project and Shiny dashboard - 
+To Recreate the Final Project and Shiny dashboard <br>
 1-Connect to the https://github.com/ganesh2512/finalProject/tree/master/finalProject-Ganesh-Roma
 2-Download and load it into R cloud
 3-Run the app.R inside the https://github.com/ganesh2512/finalProject/tree/master/finalProject-Ganesh-Roma/finalProjectShiny as a Shiny app
