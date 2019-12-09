@@ -17,7 +17,7 @@ library(shinydashboard)
 options(shiny.sanitize.errors = TRUE)
 options(shiny.reactlog = TRUE)
 
-
+# created by Ganesh and Roma
 
 numberOfPlayersValues <- list("2","3","4","5","6")
 refreshIntervalValue<- list("0.01","0.05","0.1","0.25","0.5","1","2")
@@ -62,13 +62,12 @@ ui <- dashboardPage(
                     ),
                     ),
                 fluidRow(
-                  tags$body(
-                  br(),"presented by - Roma and Ganesh",
-                  br(), "Github Link:https://github.com/ganesh2512/finalProject",
-                  br(),"Rstudio Cloud Link: https://rstudio.cloud/project/704614",
-                  br(),"Bookdown Link: https://bookdown.org/rdutta4/bookdown-grandslam/",
-                  br(),"ShinyAppsIOLink: https://ganesh-viswanathan.shinyapps.io/finalProjectShiny/",
-                  )
+                  HTML('<p align=right><br><i>presented by - Roma and Ganesh<br>
+                  Github Link:https://github.com/ganesh2512/finalProject<br>
+                  Rstudio Cloud Link: https://rstudio.cloud/project/704614<br>
+                  Bookdown Link: https://bookdown.org/rdutta4/bookdown-grandslam/<br>
+                  ShinyAppsIOLink: https://ganesh-viswanathan.shinyapps.io/finalProjectShiny/<br>
+                  </i></p>')
                   ),
         ),
       
